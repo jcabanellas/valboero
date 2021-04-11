@@ -1,0 +1,283 @@
+
+body{background-color: #484851;
+    color:#343535;
+    font-family: 'Montserrat', sans-serif;
+    };
+
+
+nav ul li a{font-size: larger;
+            margin-left: 20px;
+            color:#343535;
+        };
+
+
+/* Index*/
+
+h1{margin-top: 20px;}
+header{margin-top: 20px;}
+        
+nav{margin-top: 20px;}
+
+
+.centrarredes{padding-top: 20px;
+                margin-top: 20px;}
+@media(max-width:576px){.centrarredes{
+     margin-bottom: 10px;}
+} 
+
+
+.descripcion{color:orange;
+            margin-top: 60px;
+            text-align: center;
+            font-size: medium;
+            font-weight: 600;
+            
+            opacity:0.9;
+}
+   
+.navbar-dark .navbar-toggler {
+            color:black;
+            border-color:black;
+            border: solid 3px;
+            background-color:#343535 ;
+}
+
+.enlaceseleccionado{color:white;}
+
+
+
+/*Portada*/
+
+.fotofondo0000{background-image: url(../Imagenes/4.jpg);
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        margin:auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center 42%;
+        };
+
+
+
+
+
+
+li{list-style-type: none;}
+.claselistauno{margin-top: 80px;
+            padding: 20 px;}
+li.estilos{margin-top: 15px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: xx-large;
+            text-align: center;}
+
+.barra{background-color: #DBDCDC;
+        opacity:1;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 0px;
+    }
+@media (max-width:576px){
+    .barra{
+        opacity: 0.5;
+    }
+}
+
+/*Media para -576 Index*/
+
+@media (max-width:576px){.estilos
+        {padding-right: 0px;
+        padding-left:0px;
+        }
+};
+
+@media(max-width:576px){h2
+    {color: #343535;}
+}
+@media(max-width:576px){h1
+    {font-size: xx-large;
+    margin-top: 10px;}
+}
+
+@media(max-width:576px){.navbar-dark .navbar-toggler {
+    color:#343535;
+    border-color:#343535;
+    border: solid 3px;
+    background-color:transparent;
+    ; 
+    }
+}
+
+@media(max-width:576px){nav ul li a
+    {font-size: larger;
+    margin: 0px;
+    text-align: start;}
+
+}
+@media (max-width:576px){header
+{padding-left: 0px;}
+}
+
+@media (max-width:576px){.tammenu
+    {font-size: medium;}
+}
+
+/* Portafolio*/
+
+.backnav{background-color: black;}
+
+.fuentePortfolio{
+    color: #AAAAB5;
+}
+
+.tituloport{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.cardpropia{overflow: hidden;
+            
+            
+            border: 1px solid rgba(242, 243, 248, 0.952);
+            border-radius: 0%;
+        }
+.cardpropia:hover img{
+    transform: scale(2);
+    cursor:zoom-in;
+    transition: 5s;
+}
+
+.footport{
+    background-color: #CFA716;
+}
+.estilofoot{text-align: center;
+            padding: 10px;
+        }
+footer{position: absolute;
+        bottom: 0%;
+        margin-top: 10px;
+}
+.parafooter{position: relative;
+            min-height: 100vh;}
+
+.parafooterdos{padding-bottom: 4.5rem;}
+
+@media(min-width:768px){.ajustefoto
+    {height:150px;}
+}
+
+@media(min-width:992px){.ajustefoto
+    {height: 273px;}
+}
+
+
+/*Form*/
+
+form{text-align: center;
+    justify-content: center;
+    
+    margin: 0 auto;
+    
+}
+.cajasform{
+    background-color:#484851 ;
+    border-color: #CFA716 ;
+    border-top: #484851;
+    border-left:#CFA716 ;
+    border-right: #484851 ;
+    border-radius: 0%;
+    color: #CFA716;
+}
+
+
+.btntres{
+    background-color:#484851 ;
+    color: #CFA716;
+    text-align: center;
+    border-color:#CFA716;
+    border: 1px solid;
+}
+
+#boton:hover{background-color:#CFA716;
+            color:#484851;}
+
+.form-control:focus {
+    color:#CFA716 ;
+    background-color:#484851;
+    
+   
+    outline: 0;
+}
+
+.form-control::placeholder {
+    color: #CFA716;
+    opacity: 1;
+    text-decoration: solid;
+}
+
+
+
+.fotofondo{background-image: url(../Imagenes/Vertical.jpg);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    margin:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center 42%;
+    }
+
+.linea{
+    height: 1px;
+    width: 100%;
+    background-color: #DBDCDC;
+    display: inline-block;
+    bottom: 0%;
+    margin-right: 10px;
+}
+.lineados{
+    height: 1px;
+    width: 100%;
+    background-color: #DBDCDC;
+    display: inline-block;
+    bottom: 0%;
+    margin-left: 10px;
+}
+
+.imagenproyecto{
+    width: auto;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:768px){.imagenproyecto
+    {
+    height: auto;
+}}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
